@@ -8,6 +8,10 @@
     color: rgb(88, 88, 88);
 }
 
+body {
+    background-color: rgb(255, 241, 232);
+}
+
 #rectangles {
     position: absolute;
     top: 0;

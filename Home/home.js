@@ -11,6 +11,31 @@ const c = canvas.getContext("2d");
         c.beginPath();
         c.rect(rectangleHeight, rectangleWidth, rectangleHeight, rectangleWidth);
         c.strokeStyle = "#89D2A3";
+        //c.strokeStyle = "#FF97C4";
         c.stroke();
     }
 }
+
+const myCvButton = document.getElementById("my-cv-button");
+
+function visitMyCvPage() {
+    window.location.href='../My CV/my-cv.html';
+}
+
+myCvButton.addEventListener("click", visitMyCvPage);
+
+const myWorkButton = document.getElementById("my-work-button");
+
+function visitMyWorkPage(){
+    window.location.href = '../My Work/my-work.html';
+}
+
+myWorkButton.addEventListener("click", visitMyWorkPage);
+
+const aboutMeButton = document.getElementById("about-me-button");
+
+function visitAboutMePage() {
+    window.location.href='../About Me/about-me.html';
+}
+
+aboutMeButton.addEventListener("click", visitAboutMePage);

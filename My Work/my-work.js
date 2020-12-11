@@ -1,90 +1,100 @@
+//it'd be nice if i had a function that can implement a hyperlink to the word 'image' as well. to display the templates i tried to reproduce.
+
 const container = document.getElementById("container");
 
-//Assignment 1:
-const assignment1Div = document.createElement("div");
-assignment1Div.classList.add("assignment");
+//V3 : works too
+function displayAssignmentDiv(assignmentTitle, assignmentDescription, assignmentID) {
+    const assignmentDiv = document.createElement("div");
+    assignmentDiv.setAttribute("id", assignmentID);
+    assignmentDiv.classList.add("assignment");
 
-const assignment1DetailsDiv = document.createElement("div");
+    const assignmentDetailsDiv = document.createElement("div");
 
-const title1 = document.createElement("h3");
-const title1Node = document.createTextNode("Introduction to HTML 1");
-title1.classList.add("assignment-details-title");
+    const title = document.createElement("h3");
+    const titleNode = document.createTextNode(assignmentTitle);
+    title.classList.add("assignment-details-title");
 
-title1.appendChild(title1Node);
-assignment1DetailsDiv.appendChild(title1);
+    title.appendChild(titleNode);
+    assignmentDetailsDiv.appendChild(title);
 
-const requirements1 = document.createElement("p");
-const requirements1Node = document.createTextNode("Implement with HTML and CSS your personal CV.");
+    const requirements = document.createElement("p");
+    const requirementsNode = document.createTextNode(assignmentDescription);
 
-requirements1.appendChild(requirements1Node);
-assignment1DetailsDiv.appendChild(requirements1Node);
+    requirements.appendChild(requirementsNode);
+    assignmentDetailsDiv.appendChild(requirementsNode);
 
-assignment1DetailsDiv.classList.add("assignment-details");
+    assignmentDetailsDiv.classList.add("assignment-details");
 
-assignment1Div.appendChild(assignment1DetailsDiv);
+    assignmentDiv.appendChild(assignmentDetailsDiv);
 
-const iframe1 = document.createElement("iframe");
-iframe1.classList.add("iframes");
+    const iframe = document.createElement("iframe");
+    iframe.classList.add("iframes");
 
-assignment1Div.appendChild(iframe1);
+    assignmentDiv.appendChild(iframe);
 
-container.appendChild(assignment1Div);
+    container.appendChild(assignmentDiv);
+}
+displayAssignmentDiv("Introduction to HTML 1",
+                     "Implement with HTML and CSS your personal CV.",
+                     "assignment1");
+displayAssignmentDiv("Introduction to HTML 2",
+                     "Implement the template of the following picture with HTML & CSS only.",
+                     "assignment2");
 
+//hyperlinks:
+const backButton = document.getElementById("home-button");
 
+function goBack() {
+    window.location.href='../Home/home.html';
+}
 
+backButton.addEventListener("click", goBack);
 
-//Assignment 2:
+const myCvButton = document.getElementById("my-cv-button");
 
-const assignment2Div = document.createElement("div");
-assignment2Div.classList.add("assignment");
+function visitMyCvPage() {
+    window.location.href='../My CV/my-cv.html';
+}
 
-const assignment2DetailsDiv = document.createElement("div");
+myCvButton.addEventListener("click", visitMyCvPage);
 
-const title2 = document.createElement("h3");
-const title2Node = document.createTextNode("Introduction to HTML 2");
-title2.classList.add("assignment-details-title");
+const aboutMeButton = document.getElementById("about-me-button");
 
-title2.appendChild(title2Node);
-assignment2DetailsDiv.appendChild(title2);
+function visitAboutMePage() {
+    window.location.href='../About Me/about-me.html';
+}
 
-const requirements2 = document.createElement("p");
-const requirements2Node = document.createTextNode("Implement the template of the following picture with HTML & CSS only.");
+aboutMeButton.addEventListener("click", visitAboutMePage);
 
-requirements2.appendChild(requirements2Node);
-assignment2DetailsDiv.appendChild(requirements2Node);
+//V2 it worked at first-
+// const assignment1 = [{
+//     h3Element: "Introduction to HTML 1",
+//     pElement: "Implement with HTML and CSS your personal CV.",
+//     divID: "assignment1" 
+// }];
 
-assignment2DetailsDiv.classList.add("assignment-details");
+// const assignment2 = [{
+//     h3Element: "Introduction to HTML 2",
+//     pElement: "Implement the template of the following picture with HTML & CSS only.",
+//     divID: "assignment2"
+// }]
 
-assignment2Div.appendChild(assignment2DetailsDiv);
-
-const iframe2 = document.createElement("iframe");
-iframe2.classList.add("iframes");
-
-assignment2Div.appendChild(iframe2);
-
-container.appendChild(assignment2Div);
-
-
-
-
-
-
-//Function attempt:
-
-// function displayAssignmentDiv(assignmentTitle, assignmentRequirements) {
+// function displayAssignmentDiv(assignment1) {
 //     const assignmentDiv = document.createElement("div");
+//     assignmentDiv.setAttribute("id", assignment1.divID);
 //     assignmentDiv.classList.add("assignment");
 
 //     const assignmentDetailsDiv = document.createElement("div");
 
 //     const title = document.createElement("h3");
-//     const titleNode = document.createTextNode(assignmentTitle);
+//     const titleNode = document.createTextNode(assignment1.h3Element);
+//     title.classList.add("assignment-details-title");
 
 //     title.appendChild(titleNode);
 //     assignmentDetailsDiv.appendChild(title);
 
 //     const requirements = document.createElement("p");
-//     const requirementsNode = document.createTextNode(assignmentRequirements);
+//     const requirementsNode = document.createTextNode(assignment1.pElement);
 
 //     requirements.appendChild(requirementsNode);
 //     assignmentDetailsDiv.appendChild(requirementsNode);
@@ -96,8 +106,10 @@ container.appendChild(assignment2Div);
 //     const iframe = document.createElement("iframe");
 //     iframe.classList.add("iframes");
 
-//     assignment1Div.appendChild(iframe);
+//     assignmentDiv.appendChild(iframe);
 
 //     container.appendChild(assignmentDiv);
 // }
-// displayAssignmentDiv("Introduction to HTML 1","Implement with HTML and CSS your personal CV.");
+
+// displayAssignmentDiv(assignment1);
+// displayAssignmentDiv(assignment2);

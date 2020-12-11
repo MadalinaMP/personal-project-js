@@ -1,0 +1,81 @@
+/*commented lines can be removed at the end of the project. i just checked which properties still apply*/
+@import "../Shared CSS/general.css";
+@import "../Shared CSS/header.css";
+@import "../Shared CSS/footer.css";
+@import "../Shared CSS/buttons.css";
+
+#header {
+    margin-bottom: 200px;
+}
+
+#main-section {
+    background-color: #b5e8a485;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1400px;
+    margin-bottom: 200px;
+}
+
+#left-side {
+    background-color:rgb(255,200,196);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+    padding: 40px;
+    height: 1500px;
+    width: 400px;
+}
+
+#left-side div:first-child,
+#right-side div:first-child {
+    border-bottom: 1.5px solid gray;
+}
+
+#left-side div:first-child h1,
+#left-side div:nth-child(2) h2,
+#right-side div:first-child h2,
+#right-side div:nth-child(2) h2,
+#right-side div:nth-child(3) h2,
+#right-side div:nth-child(4) h2,
+#right-side div:nth-child(5) h2 {
+    margin: 50px 0 50px 0;
+}
+
+#right-side div:nth-child(2) h3 {
+    display: inline-block;
+}
+
+#right-side div:nth-child(2) h4 {
+    display: inline-block;
+}
+
+#left-side div:first-child ul,
+#right-side div:first-child p {
+    margin-bottom: 50px;
+}
+
+#left-side ul span {
+    font-weight: bold;
+}
+
+#right-side {
+    background-color:rgb(255,200,196);
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 25px;
+    padding: 40px;
+    height: 1500px;
+    width: 1000px;
+}
+
+img {
+    width: 30px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,8 @@
+@import "../Shared CSS/general.css";
+@import "../Shared CSS/header.css";
+@import "../Shared CSS/footer.css";
+@import "../Shared CSS/buttons.css";
+
+#header {
+    margin-bottom: 150px;
+}

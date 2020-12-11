@@ -1,0 +1,46 @@
+.buttons {
+    padding: 15px 40px 15px 40px;
+    margin: 20px 0 10px 30px;
+    background-color: #B5E8A4;
+    background: linear-gradient(0deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 100%, rgba(137,210,163,1) 100%);
+    border:none;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 4px 4px 9px -4px rgba(0,0,0,0.6);
+
+    transition: 0.3s ease;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    background-color: #89D2A3;
+    background: linear-gradient(180deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 100%, rgba(137,210,163,1) 100%);
+    color: white;
+    box-shadow: 4px 4px 18px -4px rgba(0,0,0,0.72);
+}
+
+#home-button {
+    background: rgb(201,246,217);
+    background: radial-gradient(circle, rgba(201,246,217,1) 0%, rgba(255,254,232,1) 50%, rgba(137,210,163,1) 100%);
+    padding: 20px 27px;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 4px 4px 9px -4px rgba(0,0,0,0.6);
+
+    transition: 0.3s ease;
+}
+
+#home-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#home-button:hover {
+    cursor: pointer;
+    background: rgb(255,254,232);
+    background: radial-gradient(circle, rgba(255,254,232,1) 0%, rgba(137,210,163,1) 50%, rgba(255,254,232,1) 100%);
+    color: #FF97C4;
+    box-shadow: 4px 4px 18px -4px rgba(0,0,0,0.72);
+}

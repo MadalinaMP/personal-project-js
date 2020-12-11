@@ -1,16 +1,6 @@
 /*commented lines can be removed at the end of the project. i just checked which properties still apply*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* border: 1px dotted gray; */
-    font-family: "Century Gothic";
-    color: rgb(88, 88, 88);
-}
-
-body {
-    background-color: rgb(255, 241, 232);
-}
+@import "../Shared CSS/general.css";
+@import "../Shared CSS/buttons.css";
 
 #rectangles {
     position: absolute;
@@ -21,9 +11,7 @@ body {
 }
 
 #centering-main-section {
-    /*position: relative;*/
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     height: 100vh;
 }
@@ -77,25 +65,4 @@ p:nth-child(3) {
 
 #buttons-position {
     text-align: right;
-}
-
-.buttons {
-    padding: 15px 40px 15px 40px;
-    margin: 20px 0 10px 30px;
-    background-color: #B5E8A4;
-    background: linear-gradient(0deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 100%, rgba(137,210,163,1) 100%);
-    border:none;
-    font-weight: bold;
-    font-size: 20px;
-    box-shadow: 4px 4px 9px -4px rgba(0,0,0,0.6);
-
-    transition: 0.3s ease;
-}
-
-.buttons:hover {
-    cursor: pointer;
-    background-color: #89D2A3;
-    background: linear-gradient(180deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 100%, rgba(137,210,163,1) 100%);
-    color: white;
-    box-shadow: 4px 4px 18px -4px rgba(0,0,0,0.72);
 }

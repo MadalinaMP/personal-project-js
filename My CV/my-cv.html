@@ -8,22 +8,22 @@
 </head>
 <body>
     <div id="header">
-        <button id="home-button"><a href="../Home/home.html"><</a></button>
+        <a href='../Home/home.html'><input type="button" value="<" id="home-button"/></a>
         <div>
             <h1>My CV</h1>
             <p>For job applications...</p>
         </div>
         <div>
-            <button class="buttons" id="my-work-button">My Work</button>
-            <button class="buttons" id="about-me-button">About Me</button>
+            <a href='../My Work/my-work.html'><input type="button" value="My Work" class="buttons"/></a>
+            <a href='../About Me/about-me.html'><input type="button" value="About Me" class="buttons"/></a>
         </div>
     </div>
 
     <div id="main-section">
         <div id="left-side">
-            <div>
-                <h1>Pui Madalina-Maria</h1>
-                <ul>
+            <div class="cv-borders">
+                <h1 class="cv-margins">Pui Madalina-Maria</h1>
+                <ul class="categories-spacing">
                     <li><span>Address: </span>Jud. Cluj, Loc. Ciucea, Nr. 315</li>
                     <li><span>Email: </span>madalinapuimp@gmail.com</li>
                     <li><span>LinkedIn: </span><a href="#">link goes here</a></li>
@@ -32,7 +32,7 @@
             </div>
 
             <div>
-                <h2>Skills & Abilities</h2>
+                <h2 class="cv-margins">Skills & Abilities</h2>
                 <ul>
                     <li>Attention to details</li>
                     <li>Great teamwork spirit</li>
@@ -47,18 +47,19 @@
         </div>
 
         <div id="right-side">
-            <div>
-                <h2>Professional Objective</h2>
-                <p>Business Computer Science student with a creative and open mind.<br>
+            <div class="cv-borders">
+                <h2 class="cv-margins">Professional Objective</h2>
+                <p class="categories-spacing">Business Computer Science student with a creative and open mind.<br>
                    I am driven and enthusiastic about pursuing a career in front-end/JavaScript development.</p>
             </div>
 
-            <div>
-                <h2>Professional Trainings</h2>
-                <img src="logo-siit.png">
-                <h3>The Informal School of IT – Web Development (JavaScript)</h3>
-                <h4>July 2020 - December 2020</h4>
-                <ul>
+            <div class="cv-borders">
+                <h2 class="cv-margins">Professional Trainings</h2>
+                <div>
+                    <img src="logo-siit.png">
+                    <h3><span>The Informal School of IT – Web Development (JavaScript)</span><span>July 2020 - December 2020</span></h3>
+                </div>
+                <ul class="categories-spacing">
                     <li><span>Web Concepts: </span>How the web works, Client-Server architecture, protocols</li>
                     <li><span>HTTP: </span>fundamentals about the protocol: methods, status codes, headers, cookies and sessions</li>
                     <li><span>HTML and CSS: </span>how to build a responsive User Interface with semantic HTML elements</li>
@@ -71,24 +72,24 @@
                 </ul>
             </div>
 
-            <div>
-                <h2>Languages</h2>
-                <ul>
+            <div class="cv-borders">
+                <h2 class="cv-margins">Languages</h2>
+                <ul class="categories-spacing">
                     <li><span>English - </span>advanced</li>
                     <li><span>Romainan - </span>native</li>
                 </ul>
             </div>
 
-            <div>
-                <h2>Education</h2>
-                <ul>
+            <div class="cv-borders">
+                <h2 class="cv-margins">Education</h2>
+                <ul class="categories-spacing">
                     <li><span>Business Computer Science – UBBFSEGA Cluj</span><span>2018 - Present</span></li>
                     <li><span>Mathematics & Computer Science – The "Octavian Goga" Theoretic Highschool of Huedin</span><span>2014 – 2018</span></li>
                 </ul>
             </div>
 
             <div>
-                <h2>Me outside of work</h2>
+                <h2 class="cv-margins">Me outside of work</h2>
                 <ul>
                     <li><span>Digital drawing </span>– I’ve always loved arts, therefore I relax a lot when I pick up my drawing tablet</li>
                     <li><span>Playing games  </span>– I tend to socialize way more in the online environment and games are a better way for to make new friends and share opinions</li>

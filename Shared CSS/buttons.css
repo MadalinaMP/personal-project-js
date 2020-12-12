@@ -32,11 +32,6 @@
     transition: 0.3s ease;
 }
 
-#home-button a {
-    text-decoration: none;
-    color: inherit;
-}
-
 #home-button:hover {
     cursor: pointer;
     background: rgb(255,254,232);

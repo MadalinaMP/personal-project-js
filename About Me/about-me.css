@@ -2,7 +2,9 @@
 @import "../Shared CSS/header.css";
 @import "../Shared CSS/footer.css";
 @import "../Shared CSS/buttons.css";
+@import "../Shared CSS/shortcuts.css";
 
 #header {
-    margin-bottom: 150px;
+    margin-bottom: 110px;
 }
+

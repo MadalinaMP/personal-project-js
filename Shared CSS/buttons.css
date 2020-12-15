@@ -19,7 +19,7 @@
     box-shadow: 4px 4px 18px -4px rgba(0,0,0,0.72);
 }
 
-#home-button {
+.arrow-buttons {
     background: rgb(201,246,217);
     background: radial-gradient(circle, rgba(201,246,217,1) 0%, rgba(255,254,232,1) 50%, rgba(137,210,163,1) 100%);
     padding: 20px 27px;
@@ -28,11 +28,12 @@
     font-weight: bold;
     font-size: 20px;
     box-shadow: 4px 4px 9px -4px rgba(0,0,0,0.6);
+    text-decoration: none;
 
     transition: 0.3s ease;
 }
 
-#home-button:hover {
+.arrow-buttons:hover {
     cursor: pointer;
     background: rgb(255,254,232);
     background: radial-gradient(circle, rgba(255,254,232,1) 0%, rgba(137,210,163,1) 50%, rgba(255,254,232,1) 100%);

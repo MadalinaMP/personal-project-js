@@ -1,0 +1,16 @@
+.shortcuts {
+    display: flex;
+    line-height: 30px;
+    padding: 40px;
+    justify-content: center;
+    background: rgba(255,200,196,0.5);
+    margin-bottom: 130px;
+}
+
+ul {
+    list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    margin-left: 50px;
+}

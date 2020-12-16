@@ -39,7 +39,7 @@ function displayAssignmentDiv(assignmentTitle, assignmentDescription, aCodeLink,
 
     const upArrowAnchor = document.createElement("a");
     upArrowAnchor.href="#shortcuts";
-    upArrowAnchor.innerText="⤴";
+    upArrowAnchor.innerText="⮥";
     upArrowAnchor.classList.add("arrow-buttons");
 
     assignmentDiv.appendChild(upArrowAnchor);

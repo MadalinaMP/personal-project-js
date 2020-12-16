@@ -7,7 +7,7 @@ function displayAssignmentDiv(imgLink, hobbyTitle, hobbyDescription, hobbyID) {
 
     const upArrowAnchor = document.createElement("a");
     upArrowAnchor.href="#shortcuts";
-    upArrowAnchor.innerText="⤴";
+    upArrowAnchor.innerText="⮤";
     upArrowAnchor.classList.add("arrow-buttons");
 
     hobbyDiv.appendChild(upArrowAnchor);

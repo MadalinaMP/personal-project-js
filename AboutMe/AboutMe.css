@@ -1,0 +1,10 @@
+@import "../SharedCSS/General.css";
+@import "../SharedCSS/Header.css";
+@import "../SharedCSS/Footer.css";
+@import "../SharedCSS/Buttons.css";
+@import "../SharedCSS/Shortcuts.css";
+@import "../SharedCSS/GeneratedDivs.css";
+
+#header {
+    margin-bottom: 110px;
+}

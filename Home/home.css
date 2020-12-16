@@ -1,6 +1,6 @@
 /*commented lines can be removed at the end of the project. i just checked which properties still apply*/
-@import "../Shared CSS/general.css";
-@import "../Shared CSS/buttons.css";
+@import "../SharedCSS/General.css";
+@import "../SharedCSS/Buttons.css";
 
 #rectangles {
     position: absolute;

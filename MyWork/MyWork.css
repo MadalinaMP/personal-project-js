@@ -1,10 +1,10 @@
 /*commented lines can be removed at the end of the project. i just checked which properties still apply*/
-@import "../Shared CSS/general.css";
-@import "../Shared CSS/header.css";
-@import "../Shared CSS/footer.css";
-@import "../Shared CSS/buttons.css";
-@import "../Shared CSS/shortcuts.css";
-@import "../Shared CSS/generated-divs.css";
+@import "../SharedCSS/General.css";
+@import "../SharedCSS/Header.css";
+@import "../SharedCSS/Footer.css";
+@import "../SharedCSS/Buttons.css";
+@import "../SharedCSS/Shortcuts.css";
+@import "../SharedCSS/GeneratedDivs.css";
 
 #header {
     margin-bottom: 100px;

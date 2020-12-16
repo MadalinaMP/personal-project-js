@@ -3,8 +3,8 @@
 @import "../Shared CSS/footer.css";
 @import "../Shared CSS/buttons.css";
 @import "../Shared CSS/shortcuts.css";
+@import "../Shared CSS/generated-divs.css";
 
 #header {
     margin-bottom: 110px;
 }
-

@@ -4,39 +4,10 @@
 @import "../Shared CSS/footer.css";
 @import "../Shared CSS/buttons.css";
 @import "../Shared CSS/shortcuts.css";
+@import "../Shared CSS/generated-divs.css";
 
 #header {
     margin-bottom: 100px;
-}
-
-.assignment {
-    background-color: #b5e8a485;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 300px;
-    margin-bottom: 150px;
-}
-
-.assignment-details {
-    width: 600px;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-}
-
-.assignment-details-title {
-    margin-bottom: 20px;
-}
-
-.img-style {
-    background-color: gainsboro;
-    border: 30px solid #B5E8A4;
-    border-image-source: linear-gradient(0deg, rgba(137,210,163,0.5) 0%, rgba(181,232,164,0.5) 50%, rgba(137,210,163,0.5) 100%);
-    border-image-slice: 1;
-    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.8);
-    width:630px; 
-    height:350px;
 }
 
 .code-link-style {

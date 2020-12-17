@@ -40,3 +40,17 @@
     color: #FF97C4;
     box-shadow: 4px 4px 18px -4px rgba(0,0,0,0.72);
 }
+
+@media screen and (max-width: 1024px) {
+    .buttons {
+        font-size: 13px;
+        padding: 10px 35px;
+        margin: 20px 0 10px 10px;
+    }
+
+    .arrow-buttons {
+        margin: 20px;
+        font-size: 15px;
+        padding: 12px 17px;
+    }
+}

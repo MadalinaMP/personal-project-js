@@ -5,6 +5,11 @@
     justify-content: center;
     background: rgba(255,200,196,0.5);
     margin-bottom: 130px;
+    flex-wrap: wrap;
+}
+
+.shortcuts-title {
+    margin-right: 50px;
 }
 
 ul {
@@ -12,5 +17,10 @@ ul {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
-    margin-left: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    ul {
+        margin: 10px 0;
+    }
 }

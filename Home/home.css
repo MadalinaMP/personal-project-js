@@ -30,7 +30,6 @@
 
 #poza {
     width: 350px;
-    height: 500px;
     border: 50px solid #B5E8A4;
     border-image-source: linear-gradient(0deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 50%, rgba(137,210,163,1) 100%);
     border-image-slice: 1;
@@ -50,6 +49,8 @@
 h1 {
     font-size: 50px;
     text-shadow: 4px 4px 10px #a3a3a3;
+    position: absolute;
+    top: -35px;
 }
 
 p:nth-child(2) {
@@ -65,4 +66,66 @@ p:nth-child(3) {
 
 #buttons-position {
     text-align: right;
+    position:absolute;
+    bottom: -43px;
+    right: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    #centering-main-section {
+        position: relative;
+        bottom: -15px;
+    }
+    
+    #pink-background {
+        flex-wrap: wrap;
+        height: 490px;
+    }
+    
+    #info {
+        margin: 10px;
+        text-align: center;
+        position: absolute;
+        top:0;
+        bottom: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+        top: 102px;
+        left: -95px;
+    }
+
+    p:nth-child(2) {
+        font-size: 18px;
+        position: absolute;
+        top: 105px;
+        left: -140px;
+        right: -155px;
+    }
+    
+    p:nth-child(3) {
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        top: 295px;
+        left: -125px;
+        right: -140px;
+    }
+
+    #buttons-position {
+        text-align: center;
+        position: absolute;
+        bottom: -5px;
+        right: -70px;
+    }
+
+    #poza {
+        width: 125px;
+        border: 20px solid #B5E8A4;
+        border-image-source: linear-gradient(0deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 50%, rgba(137,210,163,1) 100%);
+        border-image-slice: 1;
+        position: absolute;
+        top: -65px;
+    }
 }

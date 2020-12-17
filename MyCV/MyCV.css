@@ -27,8 +27,8 @@
     padding: 40px;
     height: 1700px;
     width: 400px;
-    /* position: absolute;
-    left: 0; */
+    position: absolute;
+    left: 40px;
 }
 
 #right-side {
@@ -40,17 +40,19 @@
     padding: 40px;
     height: 1700px;
     width: 1000px;
-    /* position: absolute;
-    right: 0; */
+    position: absolute;
+    right: 40px;
 }
 
 #right-side div:nth-child(2) div {
     display: flex;
     align-items:center;
+    margin-bottom: 10px;
 }
 
 img {
-    width: 30px;
+    width: 40px;
+    margin-right: 10px;
 }
 
 ul {
@@ -58,7 +60,7 @@ ul {
 }
 
 .cv-margins {
-    margin: 50px 0 50px 0;
+    margin: 50px 0;
 }
 
 .cv-borders {
@@ -71,4 +73,61 @@ ul {
 
 .bold-spans {
     font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    #header {
+        margin-bottom: 100px;
+    }
+
+    #main-section {
+        height: 2300px;
+        margin-bottom: 100px;
+    }
+
+    #left-side {
+        top: -55px;
+        left: 30px;
+        width: 300px;
+        line-height: 20px;
+        height: 540px;
+    }
+
+    #left-side div:first-child h1,
+    #right-side div:first-child h2 {
+        font-size: 22px;
+    }
+
+    #left-side div:nth-child(2) h2,
+    #right-side div:nth-child(2) h2,
+    #right-side div:nth-child(3) h2,
+    #right-side div:nth-child(4) h2,
+    #right-side div:nth-child(5) h2 {
+        font-size: 17px;
+    }
+
+    ul, #right-side div:first-child p {
+        font-size: 10px;
+    }
+
+    #right-side div:nth-child(2) div {
+        font-size: 10px;
+    }
+
+    #right-side {
+        bottom: -60px;
+        left: 30px;
+        width: 300px;
+        height: 1840px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .cv-margins {
+        margin: 30px 0;
+    }
+
+    .categories-spacing {
+        margin-bottom: 30px;
+    }
 }

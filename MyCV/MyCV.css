@@ -87,7 +87,9 @@ ul {
 
     #left-side {
         top: -55px;
-        left: 30px;
+        left: 0;
+        right: 0;
+        margin: auto;
         width: 300px;
         line-height: 20px;
         height: 540px;
@@ -116,7 +118,9 @@ ul {
 
     #right-side {
         bottom: -60px;
-        left: 30px;
+        left: 0;
+        right: 0;
+        margin: auto;
         width: 300px;
         height: 1840px;
         line-height: 20px;

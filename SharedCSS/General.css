@@ -3,13 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: "Century Gothic";
-    color: rgb(88, 88, 88);
 }
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    background-color: rgb(255, 241, 232);
 }

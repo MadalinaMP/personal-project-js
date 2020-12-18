@@ -1,6 +1,7 @@
 /*commented lines can be removed at the end of the project. i just checked which properties still apply*/
 @import "../SharedCSS/General.css";
 @import "../SharedCSS/Buttons.css";
+@import "../SharedCSS/ColorsAndEffects.css";
 
 #rectangles {
     position: absolute;
@@ -17,31 +18,16 @@
 }
 
 #pink-background {
-    background: rgb(255,200,196);
-    background: linear-gradient(90deg, rgba(255,176,196,1) 0%, rgba(255,200,196,1) 50%, rgba(255,176,196,1) 100%);
     height: 300px;
     min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.8);
 }
 
 #poza {
     width: 350px;
-    border: 50px solid rgb(181, 232, 164);
-    border-image-source: linear-gradient(0deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 50%, rgba(137,210,163,1) 100%);
-    border-image-slice: 1;
-    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.8);
-
-    transition: 0.3s ease;
-}
-
-#poza:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    box-shadow: 0px 0px 15px -4px rgb(255, 255, 255);
 }
 
 #info {
@@ -52,9 +38,8 @@
     height: 500px;
 }
 
-h1 {
+#info h1 {
     font-size: 50px;
-    text-shadow: 4px 4px 10px rgb(163, 163, 163);
     position: absolute;
     top: -35px;
 }
@@ -96,7 +81,7 @@ p:nth-child(3) {
         bottom: 0;
     }
 
-    h1 {
+    #info h1 {
         font-size: 40px;
         top: 102px;
         left: -95px;
@@ -132,9 +117,6 @@ p:nth-child(3) {
 
     #poza {
         width: 125px;
-        border: 20px solid rgb(181, 232, 164);
-        border-image-source: linear-gradient(0deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 50%, rgba(137,210,163,1) 100%);
-        border-image-slice: 1;
         position: absolute;
         top: -65px;
     }

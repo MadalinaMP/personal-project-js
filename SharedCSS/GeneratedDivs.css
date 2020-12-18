@@ -1,6 +1,5 @@
 .assignment,
 .hobby {
-    background-color: #b5e8a485;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -23,21 +22,8 @@
 }
 
 .img-style {
-    background-color: rgb(220, 220, 220);
-    border: 30px solid rgb(181, 232, 164);
-    border-image-source: linear-gradient(0deg, rgba(137,210,163,0.5) 0%, rgba(181,232,164,0.5) 50%, rgba(137,210,163,0.5) 100%);
-    border-image-slice: 1;
-    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.8);
     width:630px; 
     margin: 15px;
-
-    transition: 0.3s ease;
-}
-
-.img-style:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    box-shadow: 0px 0px 20px -4px rgba(255, 58, 124, 0.8);
 }
 
 @media screen and (max-width: 1024px) {

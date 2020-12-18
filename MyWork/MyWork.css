@@ -12,7 +12,7 @@
 
 .code-link-style {
     font-weight: bold;
-    color:#FF97C4;
+    color:rgb(255, 151, 196);
     margin-top: 20px;
 
     transition: 0.3s ease;
@@ -20,7 +20,7 @@
 
 .code-link-style:hover {
     cursor: pointer;
-    color: #ff60a5;
+    color: rgb(255, 96, 165);
     text-shadow: 0px 0px 7px rgba(255,190,218,0.9);
 }
 
@@ -30,5 +30,5 @@
 
 .link-style:hover {
     cursor:pointer;
-    color:#FF97C4;
+    color:rgb(255, 151, 196);
 }

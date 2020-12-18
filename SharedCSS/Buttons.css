@@ -1,7 +1,7 @@
 .buttons {
     padding: 15px 40px 15px 40px;
     margin: 20px 0 10px 30px;
-    background-color: #B5E8A4;
+    background-color: rgb(181, 232, 164);
     background: linear-gradient(0deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 100%, rgba(137,210,163,1) 100%);
     border:none;
     font-weight: bold;
@@ -13,7 +13,7 @@
 
 .buttons:hover {
     cursor: pointer;
-    background-color: #89D2A3;
+    background-color: rgb(137, 210, 163);
     background: linear-gradient(180deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 100%, rgba(137,210,163,1) 100%);
     color: white;
     box-shadow: 4px 4px 18px -4px rgba(0,0,0,0.72);
@@ -39,7 +39,7 @@
     cursor: pointer;
     background: rgb(255,254,232);
     background: radial-gradient(circle, rgba(255,254,232,1) 0%, rgba(137,210,163,1) 50%, rgba(255,254,232,1) 100%);
-    color: #FF97C4;
+    color: rgb(255, 151, 196);
     box-shadow: 4px 4px 18px -4px rgba(0,0,0,0.72);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);

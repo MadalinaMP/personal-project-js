@@ -17,6 +17,8 @@
     background: linear-gradient(180deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 100%, rgba(137,210,163,1) 100%);
     color: white;
     box-shadow: 4px 4px 18px -4px rgba(0,0,0,0.72);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .arrow-buttons {
@@ -39,6 +41,8 @@
     background: radial-gradient(circle, rgba(255,254,232,1) 0%, rgba(137,210,163,1) 50%, rgba(255,254,232,1) 100%);
     color: #FF97C4;
     box-shadow: 4px 4px 18px -4px rgba(0,0,0,0.72);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1024px) {

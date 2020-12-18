@@ -120,6 +120,10 @@ p:nth-child(3) {
         right: -70px;
     }
 
+    .buttons {
+        width: 100%;
+    }
+
     #poza {
         width: 125px;
         border: 20px solid #B5E8A4;

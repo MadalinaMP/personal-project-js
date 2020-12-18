@@ -22,5 +22,11 @@ ul {
 @media screen and (max-width: 1024px) {
     ul {
         margin: 10px 0;
+        font-size: 13px;
     }
+
+    .shortcuts-title {
+        font-size: 15px;
+    }
+    
 }

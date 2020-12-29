@@ -11,7 +11,7 @@ function generateRectangles(borderColor) {
 
             c.beginPath();
             c.rect(rectangleHeight, rectangleWidth, rectangleHeight, rectangleWidth);
-            c.strokeStyle = borderColor; //this might affect the quality of the strokes.
+            c.strokeStyle = borderColor;
             c.stroke();
         }
     }

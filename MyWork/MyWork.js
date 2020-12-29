@@ -24,6 +24,7 @@ function displayAssignmentDiv(assignmentTitle, assignmentDescription, aCodeLink,
     assignmentCodeLink.target="_blank";
     assignmentCodeLink.innerText = "CODE";
     assignmentCodeLink.classList.add("code-link-style");
+    assignmentCodeLink.classList.add("transitions");
 
     assignmentDetailsDiv.appendChild(assignmentCodeLink);
 
@@ -38,6 +39,7 @@ function displayAssignmentDiv(assignmentTitle, assignmentDescription, aCodeLink,
     const assignmentImg = document.createElement("img");
     assignmentImg.src=imgLink
     assignmentImg.classList.add("img-style");
+    assignmentImg.classList.add("transitions");
 
     imgCodeHref.appendChild(assignmentImg)
 
@@ -47,6 +49,7 @@ function displayAssignmentDiv(assignmentTitle, assignmentDescription, aCodeLink,
     upArrowAnchor.href="#shortcuts";
     upArrowAnchor.innerText="⮥";
     upArrowAnchor.classList.add("arrow-buttons");
+    upArrowAnchor.classList.add("transitions");
 
     assignmentDiv.appendChild(upArrowAnchor);
 
@@ -62,7 +65,7 @@ const assignments = [{
     divID: "assignment1"
 }, {
     h3Element: "Introduction to HTML 2",
-    pElement: "Implement the template of the following <a class=\"link-style\" href=\"../Pictures/assignment2.png\" target=\"_blank\">picture</a> with HTML & CSS only.",
+    pElement: "Implement the template of the following <a class=\"link-style transitions\" href=\"../Pictures/assignment2.png\" target=\"_blank\">picture</a> with HTML & CSS only.",
     aCodeLink: "https://github.com/MadalinaMP/dog-breeds-extra",
     codeHref: "https://madalinamp.github.io/dog-breeds-extra/",
     imgLink: "../Pictures/assignment2picture.PNG",
@@ -76,7 +79,7 @@ const assignments = [{
     divID:"assignment3"
 }, {
     h3Element: "Layouting Practice 1",
-    pElement: "Implement the following <a class=\"link-style\" href=\"../Pictures/assignment4.jpg\" target=\"_blank\">design</a> using HTML and CSS. The font used in the layout is called \"Muli\". Use the PerfectPixel Chrome add-on to find out font sizes.",
+    pElement: "Implement the following <a class=\"link-style transitions\" href=\"../Pictures/assignment4.jpg\" target=\"_blank\">design</a> using HTML and CSS. The font used in the layout is called \"Muli\". Use the PerfectPixel Chrome add-on to find out font sizes.",
     aCodeLink: "https://github.com/MadalinaMP/layouting-challenge",
     codeHref: "https://madalinamp.github.io/layouting-challenge/",
     codeHref: "https://madalinamp.github.io/layouting-challenge/",
@@ -84,7 +87,7 @@ const assignments = [{
     divID: "assignment4"
 }, {
     h3Element: "Layouting Practice 2",
-    pElement:  "Implement the following templates: <a class=\"link-style\" href=\"../Pictures/assignment5-1.png\" target=\"_blank\">[1]</a> <a class=\"link-style\" href=\"../Pictures/assignment5-2.jpg\" target=\"_blank\">[2]</a> using HTML and CSS. Use in your code as many elements of the following: article, aside, section, header, footer, nav, main. Try to have at least one element that's positioned using float, relative, absolute and fixed position values. Use other CSS properties to style your content, keeping in mind to avoid repetition, and to keep them well organized.",
+    pElement:  "Implement the following templates: <a class=\"link-style transitions\" href=\"../Pictures/assignment5-1.png\" target=\"_blank\">[1]</a> <a class=\"link-style transitions\" href=\"../Pictures/assignment5-2.jpg\" target=\"_blank\">[2]</a> using HTML and CSS. Use in your code as many elements of the following: article, aside, section, header, footer, nav, main. Try to have at least one element that's positioned using float, relative, absolute and fixed position values. Use other CSS properties to style your content, keeping in mind to avoid repetition, and to keep them well organized.",
     aCodeLink: "https://github.com/MadalinaMP/bonus-CSS---HTML-hw",
     codeHref: "https://madalinamp.github.io/bonus-CSS---HTML-hw/implementing-a-layout-using-HTML---CSS/index.html",
     imgLink: "../Pictures/assignment5picture.PNG",
@@ -126,7 +129,7 @@ const assignments = [{
     divID: "assignment10"
 }, {
     h3Element: "AJAX & Promises - NASA API",
-    pElement: "Using NASA's Astronomy Picture of the Day API get Today's Astronomy Picture of the Day. Generate an API Key on their <a class=\"link-style\" href=\"https://api.nasa.gov/\" target=\"_blank\">website</a>. Study how the API works. Using fetch function make a request to get the Astronomy Picture of the Day and display the picture and it's title, use a loader for a better UI experience until the picture si loading from the server. Optionally, add an input type of date and use the \"date\" query parameter of the request to get the picture based on the selected date.",
+    pElement: "Using NASA's Astronomy Picture of the Day API get Today's Astronomy Picture of the Day. Generate an API Key on their <a class=\"link-style transitions\" href=\"https://api.nasa.gov/\" target=\"_blank\">website</a>. Study how the API works. Using fetch function make a request to get the Astronomy Picture of the Day and display the picture and it's title, use a loader for a better UI experience until the picture si loading from the server. Optionally, add an input type of date and use the \"date\" query parameter of the request to get the picture based on the selected date.",
     aCodeLink: "https://github.com/MadalinaMP/nasa-pic-of-the-day-hw",
     codeHref: "https://madalinamp.github.io/nasa-pic-of-the-day-hw/",
     imgLink: "../Pictures/assignment11picture.PNG",

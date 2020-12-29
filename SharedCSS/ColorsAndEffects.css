@@ -1,4 +1,4 @@
-/*General CSS*/
+/*General.CSS*/
 * {
     color: rgb(88, 88, 88);
 }
@@ -9,18 +9,13 @@ body {
 
 /*Home.css*/
 #pink-background {
-    background: rgb(255,200,196);
-    background: linear-gradient(90deg, rgba(255,176,196,1) 0%, rgba(255,200,196,1) 50%, rgba(255,176,196,1) 100%);
-    box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.8);
 }
 
 #poza {
     border: 50px solid rgb(181, 232, 164);
     border-image-source: linear-gradient(0deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 50%, rgba(137,210,163,1) 100%);
     border-image-slice: 1;
-    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.8);
-
-    transition: 0.3s ease;
 }
 
 #poza:hover {
@@ -54,18 +49,12 @@ body {
 /*MyWork.css*/
 .code-link-style {
     color:rgb(255, 151, 196);
-
-    transition: 0.3s ease;
 }
 
 .code-link-style:hover {
     cursor: pointer;
     color: rgb(255, 96, 165);
     text-shadow: 0px 0px 7px rgba(255,190,218,0.9);
-}
-
-.link-style {
-    transition: 0.3s ease;
 }
 
 .link-style:hover {
@@ -78,8 +67,6 @@ body {
     background-color: rgb(181, 232, 164);
     background: linear-gradient(0deg, rgba(137,210,163,1) 0%, rgba(181,232,164,1) 100%, rgba(137,210,163,1) 100%);
     box-shadow: 4px 4px 9px -4px rgba(0,0,0,0.6);
-
-    transition: 0.3s ease;
 }
 
 .buttons:hover {
@@ -97,8 +84,6 @@ body {
     background: rgb(201,246,217);
     background: radial-gradient(circle, rgba(201,246,217,1) 0%, rgba(255,254,232,1) 50%, rgba(137,210,163,1) 100%);
     box-shadow: 4px 4px 9px -4px rgba(0,0,0,0.6);
-    
-    transition: 0.3s ease;
 }
 
 .arrow-buttons:hover {
@@ -112,13 +97,6 @@ body {
     transform: scale(1.1);
 }
 
-/*Footer.css*/
-#footer {
-    background: rgb(255,200,196);
-    background: linear-gradient(90deg, rgba(255,176,196,1) 0%, rgba(255,200,196,1) 50%, rgba(255,176,196,1) 100%);
-    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.8);
-}
-
 /*GeneratedDivs.css*/
 .assignment,
 .hobby {
@@ -130,9 +108,7 @@ body {
     border: 30px solid rgb(181, 232, 164);
     border-image-source: linear-gradient(0deg, rgba(137,210,163,0.5) 0%, rgba(181,232,164,0.5) 50%, rgba(137,210,163,0.5) 100%);
     border-image-slice: 1;
-    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.8);
-
-    transition: 0.3s ease;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.8);
 }
 
 .img-style:hover {
@@ -143,8 +119,6 @@ body {
 
 /*Header.css*/
 #header {
-    background: rgb(255,200,196);
-    background: linear-gradient(90deg, rgba(255,176,196,1) 0%, rgba(255,200,196,1) 50%, rgba(255,176,196,1) 100%);
     box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.8);
 }
 
@@ -169,4 +143,19 @@ body {
     #poza {
         border: 20px solid rgb(181, 232, 164);
     }
+}
+
+
+
+.pink-gradient-background {
+    background: rgb(255,200,196);
+    background: linear-gradient(90deg, rgba(255,176,196,1) 0%, rgba(255,200,196,1) 50%, rgba(255,176,196,1) 100%);
+}
+
+.dark-box-shadow {
+    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.8);
+}
+
+.transitions {
+    transition: 0.3s ease;
 }

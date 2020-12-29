@@ -9,12 +9,14 @@ function displayAssignmentDiv(imgLink, hobbyTitle, hobbyDescription, hobbyID) {
     upArrowAnchor.href="#shortcuts";
     upArrowAnchor.innerText="⮤";
     upArrowAnchor.classList.add("arrow-buttons");
+    upArrowAnchor.classList.add("transitions");
 
     hobbyDiv.appendChild(upArrowAnchor);
 
     const hobbyImg = document.createElement("img");
     hobbyImg.src=imgLink
     hobbyImg.classList.add("img-style");
+    hobbyImg.classList.add("transitions");
 
     hobbyDiv.appendChild(hobbyImg);
 

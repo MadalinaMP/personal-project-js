@@ -1,6 +1,6 @@
 const container = document.getElementById("container");
 
-function displayAssignmentDiv(imgLink, hobbyTitle, hobbyDescription, hobbyID) {
+function displayHobbyDiv(imgLink, hobbyTitle, hobbyDescription, hobbyID) {
     const hobbyDiv = document.createElement("div");
     hobbyDiv.setAttribute("id", hobbyID);
     hobbyDiv.classList.add("hobby");
@@ -75,7 +75,7 @@ const hobbies = [{
 
 for (let i = 0; i<=hobbies.length; i++) {
     const hobby = hobbies[i];
-    displayAssignmentDiv(hobby.imgLink,
+    displayHobbyDiv(hobby.imgLink,
                          hobby.h3Element,
                          hobby.pElement,
                          hobby.divID);
